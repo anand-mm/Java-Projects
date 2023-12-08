@@ -1,0 +1,22 @@
+spring:
+  test:
+    dbsource: anand
+    url: localhost:8080/test
+  datasource:
+    password: secretpassword
+    url: jdbc:mysql://localhost:3306/mydatabase
+    username: admin
+server:
+  port: '8080'
+  contextPath: /myapp
+sbpg:
+  init:
+    number: '42'
+    display-number: 'true'
+custom:
+  property2: value2
+  property1: value1
+logging:
+  file: /path/to/logs/myapp.log
+  level:
+    root: info

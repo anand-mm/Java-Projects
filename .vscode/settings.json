@@ -1,0 +1,6 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/home/madan/Downloads/snakeyaml-2.2.jar"
+    ]
+}
